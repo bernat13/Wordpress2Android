@@ -19,7 +19,7 @@ public class PostItemAdapter extends ArrayAdapter<PostData> {
     public PostItemAdapter(Context context, int textViewResourceId,
                            PostData[] objects) {
         super(context, textViewResourceId, objects);
-        // TODO Auto-generated constructor stub
+        // TODO Auto-generated constructor st
         myContext = (Activity) context;
         datas = objects;
     }
